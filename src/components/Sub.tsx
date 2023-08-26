@@ -1,4 +1,4 @@
-const Sub = () => {
+const Sub: React.FC = () => {
   return <div>Sub</div>;
 };
 

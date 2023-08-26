@@ -4,7 +4,7 @@ import Form from './components/Form';
 import GetStarted from './components/GetStarted';
 import Sub from './components/Sub';
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <div>
       <Title />

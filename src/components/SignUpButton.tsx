@@ -1,6 +1,6 @@
 import { Icon } from '@iconify/react';
 
-const SignUpButton = () => {
+const SignUpButton: React.FC = () => {
   return (
     <div>
       <button>
