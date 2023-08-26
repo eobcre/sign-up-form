@@ -1,5 +1,9 @@
 const Title = () => {
-  return <div>Title</div>;
+  return (
+    <div>
+      <h3>Sign up for free</h3>
+    </div>
+  );
 };
 
 export default Title;
