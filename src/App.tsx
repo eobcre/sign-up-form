@@ -10,7 +10,7 @@ const App = () => {
       <Title />
       <SignUpButton />
       <Form />
-      <GetStarted />
+      <GetStarted name='Get Started' />
       <Sub />
     </div>
   );
