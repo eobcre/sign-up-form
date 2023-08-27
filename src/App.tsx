@@ -9,9 +9,11 @@ const App: React.FC = () => {
     <div className='flex justify-center items-center bg-[#B8B6CD] h-screen'>
       <div className='flex flex-col items-center bg-white rounded w-[320px] h-[480px]'>
         <Title />
-        <SignUpButton />
-        <Form />
-        <GetStarted name='Get Started' />
+        <div className='px-12'>
+          <SignUpButton />
+          <Form />
+          <GetStarted name='Get Started' />
+        </div>
         <Sub />
       </div>
     </div>
