@@ -5,3 +5,18 @@
 * {
   font-family: Arial;
 }
+
+.border-line::before,
+.border-line::after {
+  content: '';
+  border-top: 1px solid #b4b4b4;
+  width: 27px;
+}
+
+.border-line::before {
+  margin-right: 10px;
+}
+
+.border-line::after {
+  margin-left: 10px;
+}
