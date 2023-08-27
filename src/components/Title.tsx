@@ -1,7 +1,7 @@
 const Title: React.FC = () => {
   return (
-    <div>
-      <h3>Sign up for free</h3>
+    <div className='p-8'>
+      <h3 className='text-lg'>Sign up for free</h3>
     </div>
   );
 };
