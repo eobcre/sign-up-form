@@ -1,6 +1,6 @@
 const Form: React.FC = () => {
   return (
-    <div className='py-8'>
+    <div className='pt-8 pb-4'>
       <form>
         <p className='border-line flex justify-center items-center text-[12px] text-[#B4B4B4] uppercase pb-3'>
           Or Sign Up With Email
